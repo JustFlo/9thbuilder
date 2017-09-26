@@ -1,0 +1,671 @@
+# Files in the config/locales directory are used for internationalization
+
+# and are automatically loaded by Rails. If you want to use locales other
+
+# than English, add the necessary files in this directory.
+
+#
+
+# To use the locales, use `I18n.t`:
+
+#
+
+#     I18n.t 'hello'
+
+#
+
+# In views, this is aliased to just `t`:
+
+#
+
+#     <%= t('hello') %>
+
+#
+
+# To use a different locale, set it with `I18n.locale`:
+
+#
+
+#     I18n.locale = :es
+
+#
+
+# This would use the information in config/locales/es.yml.
+
+#
+
+# To learn more, please read the Rails Internationalization guide
+
+# available at http://guides.rubyonrails.org/i18n.html.
+
+
+
+en:
+
+  welcome: "Wilkommen"
+
+  help: "Hilfe"
+
+  close: "Schließen"
+
+  save: "Speichern"
+
+  next: "weiter"
+
+  per_model: "/Mod."
+
+  up_to: "bis zu"
+
+
+
+  menu:
+
+    label: "Hauptmenü menu"
+
+    army_lists: "Meine Armeeliste"
+
+    preferences: "Preferences"
+
+    help: "Hilfe"
+
+    signout: "Auslogen"
+
+    signin: "Einlogen"
+
+    signup: "Sign up"
+
+    languages:
+
+      lang: "Sprachen"
+
+      de: "deutsch"
+
+      fr: "französisch"
+
+      en: "englisch"
+
+      hu: "ungarisch"
+
+      it: "italienisch"
+
+      ko: "koreanisch"
+
+      pl: "polnisch"
+
+      ru: "russisch"
+
+      sr: "serbisch"
+
+      es: "spanisch"
+
+
+
+  home:
+
+    whoarewe:
+
+     title: "Wer sind wir?"
+
+     description: "Bringing together a team of enthusiasts playing for over 15 years in Battle, Army Builder wants to be an effective and user-friendly tool to create your army lists. Supported by generous patrons, Army Builder generates no income and will never ask for money! In addition, Army Builder is an open source project."
+
+    thank: "We warmly thank the illustrators/companies allowing us to use their work."
+
+    army:
+
+      first: "Beast Herds, Daemon Legions, Dread Elves, Dwarven Holds, Highborn Elves, Ogre Khans, Orcs and Goblins, Saurian Ancients, Vampire Covenant, Warriors of the Dark Gods owned by <a href=\"http://www.avatars-of-war.com\" target=\"_blank\">Avatars of War</a> and created by <a href=\"http://diegogisbertllorens.deviantart.com\" target=\"_blank\">Diego Gisbert Llorens</a>"
+
+      second: "Empire of Sonnstahl by <a href=\"http://wraithdt.deviantart.com/art/Battle-of-Blackheath-416207912\" target=\"_blank\">Wraithdt</a>"
+
+      three: "Undying Dynasties by <a href=\"http://theclockworkpainter.deviantart.com/art/Queen-Khalida-493461199\" target=\"_blank\">Theclockworkpainter</a>"
+
+      four: "The Vermin Swarm by <a href=\"http://getsugadante.deviantart.com/art/Warhammer-Fantasy-Rat-Ogre-s-fury-587662192\" target=\"_blank\">GetsugaDante</a>"
+
+
+
+  army_list:
+
+    index:
+
+      title: "Meine Armelisten"
+
+      filter: "Filtere nach"
+
+      and: "und"
+
+      name_or_notes: "Name oder Notizen"
+
+      add: "Erstelle neue Armeeliste"
+
+      search: "Abschicken"
+
+    show:
+
+      title: "Armeeliste • %{name}"
+
+      print: "Drucken"
+
+      edit: "Ändern"
+
+      export: "Exportieren"
+
+      duplicate: "Dublizieren"
+
+      delete: "Löschen"
+
+      notes: "Notizen"
+
+      add_unit: "Füge Einheit hinzu"
+
+    new:
+
+      title: "Erstelle<br />neue Liste"
+
+    edit:
+
+      title: "Update<br />Liste"
+
+    delete:
+
+      title: "Löschen<br />Liste"
+
+      information: "Willst du diese Liste wirklich löschen:"
+
+      submit: "!!! Delete !!!"
+
+    export:
+
+      title: "Exportieren<br />Listen"
+
+      information: "Wähle das Format für den Listenexport:"
+
+      include_magics: "Zeige magische Gegenstände / Standarten?"
+
+      pdf_full: "Full PDF"
+
+      pdf_lite: "Lite PDF"
+
+      html_full: "Full HTML"
+
+      html_lite: "Lite HTML"
+
+    duplicate:
+
+      title: "Dublizieren<br />Liste"
+
+      information: "Willst diese Liste wirklich dublizieren:"
+
+    form:
+
+      name: "Name"
+
+      notes: "Notizen"
+
+      submit: Save
+
+
+
+  army_list_unit:
+
+    show:
+
+      edit: "Ändern"
+
+      duplicate: "Dublizieren"
+
+      delete: "Löschen"
+
+      troops:
+
+        name: "Truppen"
+
+        profile: "Profile"
+
+        M: "M"
+
+        WS: "KG"
+
+        BS: "BF"
+
+        S: "S"
+
+        T: "W"
+
+        W: "LP"
+
+        I: "I"
+
+        A: "A"
+
+        LD: "MW"
+
+        E: "Evoked"
+
+        type: "Truppentyp"
+
+      magic_items: "magische Gegenstände"
+
+      magic_standards: "magische Standarten"
+
+      unit_options: "Optionen"
+
+      equipments: "Ausrüstung"
+
+      special_rules: "Sonderregeln"
+
+      magic: "Magie"
+
+      notes: "Notizen"
+
+    new:
+
+      title: "Add<br />new unit"
+
+    edit:
+
+      title: "Edit"
+
+      options: "Optionen"
+
+      magic_items: "magische Gegenstände"
+
+      extra_items: "Special"
+
+      magic_standards: "magische Standarten"
+
+      form:
+
+        magic: "Magie"
+
+        notes: "Notizen"
+
+    delete:
+
+      title: "Lösche<br />Einheit"
+
+      information: "Willst du wirklich diese Einheit löschen:"
+
+      submit: "!!! Delete !!!"
+
+    duplicate:
+
+      title: "Dubliziere"
+
+      target: "Zu:"
+
+      new_army_list: "Neue %{name}Lliste"
+
+    form:
+
+      name: "Name"
+
+
+
+  version:
+
+    index:
+
+      title: "Versionen"
+
+      show: "Ansicht"
+
+    show:
+
+      back: "Zurück"
+
+  army:
+
+    index:
+
+      title: "Armies"
+
+      show: "Show"
+
+    show:
+
+      back: "Back"
+
+  magic:
+
+    range: Range
+
+    type: Type
+
+    duration: Duration
+
+    effect: Effect
+
+    casting: Casting
+
+    index:
+
+      title: "Magics"
+
+      show: "Show"
+
+    show:
+
+      back: "Back"
+
+  magic_spell:
+
+    type_lvl:
+
+      A: "A"
+
+      Zero: "0"
+
+      One: "1"
+
+      Two: "2"
+
+      Three: "3"
+
+      Four: "4"
+
+      Five: "5"
+
+      Six: "6"
+
+    duration:
+
+      OneTurn: Last one Turn
+
+      Instant: Instant
+
+      Permanent: Permanent
+
+      RemainsInPlay: Remains in play
+
+    type_target:
+
+      Hex: Hex
+
+      Hex_r: "|Hex|"
+
+      Missile: Missile
+
+      Damage: Damage
+
+      Augment: Augment
+
+      Augment_b: "[Augment]"
+
+      Focused: Focused
+
+      Direct: Direct
+
+      Ground: Ground
+
+      Universal: Universal
+
+      Universal_g: "{Universal}"
+
+
+
+  extra_items:
+
+    index:
+
+      title: Extra items
+
+      show: Show
+
+
+
+  magic_items:
+
+    index:
+
+      title: Magic items
+
+      show: Show
+
+    type: Type
+
+    type_target:
+
+      Hex: Hex
+
+      Hex_r: "|Hex|"
+
+      Missile: Missile
+
+      Damage: Damage
+
+      Augment: Augment
+
+      Augment_b: "[Augment]"
+
+      Focused: Focused
+
+      Direct: Direct
+
+      Ground: Ground
+
+      Universal: Universal
+
+      Universal_g: "{Universal}"
+
+    type_figurine:
+
+      Infantry: Infantry 
+
+      Monster: Monster
+
+      NoLargeTarget: No large target
+
+      AnimisteBestial: Animiste bestial
+
+      MountedCharacter: Mounted character
+
+      Character: Character
+
+      ModelsOnFoot: Models on foot
+
+      MageOnFoot: Mage On Foot
+
+      Goblins: Goblins 
+
+      FeralOrc: Feral Orc
+
+      MonarchsOfTheDead: Monarchs of the Dead
+
+      ModelsOnChariots: models on Chariots
+
+    duration: Duration
+
+    type_duration: 
+
+      OneTurn: Last one Turn
+
+      Instant: Instant
+
+      Permanent: Permanent
+
+      RemainsInPlay: Remains in play
+
+
+
+  magic_standards:
+
+    index:
+
+      title: Magic Standards
+
+      show: Show
+
+
+
+  special_rules:
+
+    index:
+
+      title: Special rules
+
+      show: Show
+
+
+
+  equipments:
+
+    index:
+
+      title: Equipments
+
+      show: Show
+
+
+
+  unit:
+
+    show:
+
+      size: "<strong>%{min_size}</strong> models, may add up to <strong>%{max_size}</strong> models <strong>%{pts}</strong> pts/mod."
+
+      change: "%{name} units of %{number} models count towards %{new_name}"
+
+
+
+  signin:
+
+    title: "Sign in"
+
+    form:
+
+      register: "Join us"
+
+      email: "Email"
+
+      password: "Password"
+
+      remember: "Remember me"
+
+      lost: "Forgot ?"
+
+      submit: "Sign-in"
+
+    lost:
+
+      password: "I have lost my password!"
+
+      confirmation: "I didn't received my confirmation email"
+
+    information: "For any questions, contact us on <a href=\"mailto:support@9thbuilder.com\">online help</a>"
+
+
+
+  signup:
+
+    title: "Sign up"
+
+    form:
+
+      name: "Name or nickname"
+
+      email: "Email address"
+
+      password: "Password"
+
+      confirmation: "Password confirmation"
+
+      favorite_army: "--Favorite army--"
+
+      submit: "Sign-up"
+
+    lost:
+
+      password: "I have lost my password!"
+
+      confirmation: "I didn't received my confirmation email"
+
+    information: "For any questions, contact us on <a href=\"mailto:support@9thbuilder.com\">online help</a>"
+
+
+
+  password_lost:
+
+    title: "I have lost my password"
+
+    form:
+
+      email: "Email"
+
+      submit: "Save"
+
+    lost:
+
+      confirmation: "I didn't received my confirmation email"
+
+    information: "For any questions, contact us on <a href=\"mailto:support@9thbuilder.com\">online help</a>"
+
+
+
+  password_change:
+
+    title: "Change your password"
+
+    form:
+
+        password: "Password"
+
+        confirmation: "Password confirmation"
+
+        submit: "Save"
+
+    lost:
+
+        password: "I have lost my password!"
+
+        confirmation: "I didn't received my confirmation email"
+
+    information: "For any questions, contact us on <a href=\"mailto:support@9thbuilder.com\">online help</a>"
+
+
+
+  confirmation:
+
+    title: "Re-send confirmation instructions"
+
+    form:
+
+      email: "Email"
+
+      submit: "Save"
+
+    lost:
+
+      password: "I have lost my password!"
+
+    information: "For any questions, contact us on <a href=\"mailto:support@9thbuilder.com\">online help</a>"
+
+
+
+  profile:
+
+    title: "My account"
+
+    form:
+
+      name: "Name or nickname"
+
+      email: "Email address"
+
+      favorite_army: "Favorite army"
+
+      password: "Password"
+
+      password_help: "Leave it empty if you don't want to change your password"
+
+      confirmation: "Password confirmation"
+
+      submit: "Save"
+
+    delete:
+
+      title: "Account deletion"
+
+      information: "You are not satisfied? <a href=\"mailto:support@9thbuilder.com\">Contact us</a> or"
+
+      link: "immediately destroy your account"
+
+    back: "Previous page"
